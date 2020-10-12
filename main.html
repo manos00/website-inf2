@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="no-js">
+<!-- when modernizr runs it removes the "no-js" 
+					class and replaces it with "js". This is a way to
+					apply different CSS rules depending on whether or 
+					not js support is enabled -->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<!-- defines which browsers are supported/ which versions are needed -->
+	<title>D2RAIDS</title>
+	<meta name="description" content="Destiny 2 raid guide">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="css+img/normalize.css">
+	<link rel="stylesheet" href="css+img/main.css">
+	<style type="text/css">
+		/* link color */
+		.back-link a {
+			color: #e0e4e0;
+			text-decoration: none;
+		}
+
+		/* link color when hovering over or focussing */
+		.back-link a:hover,
+		.back-link a:focus {
+			color: #6e746d;
+			text-decoration: none;
+		}
+
+		h1 {
+			height: 100%;
+			margin: 0;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 32px;
+			margin-bottom: 3px;
+		}
+
+		/* headline seen before animation bc z-index 10001 */
+		.entry-title {
+			text-align: left;
+			margin: 0 auto 50px auto;
+			width: 80%;
+			max-width: 1000px;
+			position: relative;
+			z-index: 10001;
+		}
+
+		#paddingtop {
+			padding-top: 100px;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- wallpaper on top bc padding unso -->
+	<div id="mainwallpaper">
+		<!-- padding dings -->
+		<div id="paddingtop">
+			<!-- oben erklärt -->
+			<header>
+				<h1 class="entry-title">Destiny 2 Raids</h1>
+			</header>
+			<!-- layer which slides open -->
+			<div id="loader-wrapper">
+				<!-- animation circles -->
+				<div id="loader"></div>
+				<!-- loader wrapper layer left and right section for the sliding effect -->
+				<div class="loader-section section-left"></div>
+				<div class="loader-section section-right"></div>
+			</div>
+
+			<!-- style rules applying to content -->
+			<div id="content">
+
+				<h2>D2RAIDING guide</h2>
+				<br>
+				<!-- button -->
+				<button id="btnid">Last Wish</button>
+				<!-- modal -->
+				<div id="modalid" class="modal">
+					<!-- modal content -->
+					<div class="modal-content">
+						<span class="close">&times;</span>
+						<p>something about the raid lol</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- JavaScript library -->
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+	<!--  -->
+	<script src="js/main.js"></script>
+	<!--  -->
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<!-- modal -->
+	<script>
+		/* define modal */
+		var modal = document.getElementById("modalid");
+
+		/* define button */
+		var btn = document.getElementById("btnid");
+
+		/* define <span> element that closes modal */
+		var span = document.getElementsByClassName("close")[0];
+
+		/* function button opens modal */
+		btn.onclick = function () {
+			modal.style.display = "block";
+		}
+
+		/* on click of <span> (x) modal closes */
+		span.onclick = function () {
+			modal.style.display = "none";
+		}
+
+		/* modal closes if clicked anywhere outside of modal */
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+
+</body>
+
+</html>
