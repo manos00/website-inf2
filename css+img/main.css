@@ -1,4 +1,4 @@
-/* modal background */
+/* background */
   .modal {
     display: none;
     position: fixed;
@@ -21,16 +21,20 @@
   }
   
   /* close button */
-  .close {
+  .close1, .close2, .close3, .close4, .close5, .close6 {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
   }
-  
+
   /* close button hover and focus options */
-  .close:hover,
-  .close:focus {
+  .close1, .close2, .close3, .close4, .close5, .close6:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;   
+  }
+  .close1, .close2, .close3, .close4, .close5, .close6:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
@@ -42,7 +46,7 @@
   }
 
 
-/* button */
+/* buttons */
 
   /* center the button lol */
     .cennnterrr {
@@ -57,13 +61,11 @@
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;*/
-    background-color: #928e8e;
-    padding-right: 54%;
+    background-color: #928e8eb4;
+    /* padding-right: 54%;
     padding-left: 46%;
-    padding-right: 25vw;
     padding-left: 25vw;
-    padding-right: 25vw;
-    padding-left: 25vw;
+    padding-right: 25vw;*/
     padding-top: 5%;
     padding-bottom: 5%;
     border-radius: 15px;
@@ -71,9 +73,109 @@
     font-weight: bold;
     white-space: nowrap;
     position: relative;
-    max-width: 500px;
+    width: 50vw;
     }
 
+    #btnid2  {
+    /* background-image: url(lastwish.jpg); 
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background-color: #928e8eb4;
+    /* padding-right: 54%;
+    padding-left: 46%;
+    padding-left: 25vw;
+    padding-right: 25vw;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    border: none; 
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    width: 50vw;
+    }
+
+    #btnid3  {
+    /* background-image: url(lastwish.jpg); 
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background-color: #928e8eb4;
+    /* padding-right: 54%;
+    padding-left: 46%;
+    padding-left: 25vw;
+    padding-right: 25vw;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    border: none; 
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    width: 50vw;
+    }
+
+    #btnid4  {
+    /* background-image: url(lastwish.jpg); 
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background-color: #928e8eb4;
+    /* padding-right: 54%;
+    padding-left: 46%;
+    padding-left: 25vw;
+    padding-right: 25vw;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    border: none; 
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    width: 50vw;
+    }
+
+    #btnid5  {
+    /* background-image: url(lastwish.jpg); 
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background-color: #928e8eb4;
+    /* padding-right: 54%;
+    padding-left: 46%;
+    padding-left: 25vw;
+    padding-right: 25vw;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    border: none; 
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    width: 50vw;
+    }
+
+    #btnid6  {
+   /* background-image: url(lastwish.jpg); 
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    background-color: #928e8eb4;
+    /* padding-right: 54%;
+    padding-left: 46%;
+    padding-left: 25vw;
+     padding-right: 25vw;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    border: none; 
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    width: 50vw;
+    }
+                            
 /* wallpaper */
 
     #mainwallpaper  {     
