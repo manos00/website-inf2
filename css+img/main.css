@@ -58,13 +58,12 @@
     background-size: 100% auto;
     background-position: center;
     background-repeat: no-repeat;
-<<<<<<< HEAD
     padding-right: 54%;
     padding-left: 46%;
-=======
     padding-right: 25vw;
     padding-left: 25vw;
->>>>>>> bb330c9779edbcfd7bf5892844d501a0e41f90fc
+    padding-right: 25vw;
+    padding-left: 25vw;
     padding-top: 5%;
     padding-bottom: 5%;
     border-radius: 15px;
