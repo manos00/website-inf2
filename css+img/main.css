@@ -53,11 +53,11 @@
 
 
     #btnid  {
-    /* background-image: url(lastwish.jpg); */
-    background-color: #928e8e;
+    /* background-image: url(lastwish.jpg); 
     background-size: 100% auto;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    background-color: #928e8e;
     padding-right: 54%;
     padding-left: 46%;
     padding-right: 25vw;
@@ -71,6 +71,7 @@
     font-weight: bold;
     white-space: nowrap;
     position: relative;
+    max-width: 500px;
     }
 
 /* wallpaper */
