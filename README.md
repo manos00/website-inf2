@@ -1,3 +1,4 @@
-# destiny-website-inf2
+# website-inf2
 destiny website inf2
-Manos Wagner & Jonas Wolf
+Ideas by Jonas Wolf
+Implementation by Manos Wagner
