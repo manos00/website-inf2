@@ -18,6 +18,9 @@
     padding: 20px;
     width: 80%;
     border-radius: 15px; /* round corners */
+    z-index: 20000;
+    position: relative;
+    align-items: center;
   }
   
   /* close button */
@@ -53,6 +56,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     }
 
 
@@ -179,7 +183,7 @@
 /* wallpaper */
 
     #mainwallpaper  {     
-    background: url(loading.png) ;
+    background: url(loading.gif) ;
     min-height: 100vh;
     width: 100%;
     overflow-x: hidden ;
@@ -212,10 +216,8 @@
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: #524e4e;
-
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-
     z-index: 1001;
     }
 
@@ -334,7 +336,7 @@
         display: none;
     }
     .no-js h1 {
-        color: #222222;
+        color: #000000;
     }
 
     #content {
@@ -363,48 +365,6 @@
         height: 150%;
         }
 
-    /* Hide from both screenreaders and browsers: h5bp.com/u */
-
-    .hidden {
-        display: none !important;
-        visibility: hidden;
-        }
-
-/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-
-    .visuallyhidden {
-        border: 0;
-        clip: rect(0 0 0 0);
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        width: 1px;
-    }
-
-/*
- * Extends the .visuallyhidden class to allow the element to be focusable
- * when navigated to via the keyboard: h5bp.com/p
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-/*
- * Hide visually and from screenreaders, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
-}
 
 /*
  * Clearfix: contain floats
