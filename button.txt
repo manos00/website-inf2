@@ -1,107 +1,282 @@
-button:
-
 html:
 
-<button id="btnid">last wish oder so</button>
-				<!-- modal -->
-				<div id="modalid" class="modal">
-					<!-- modal content -->
-					<div class="modal-content">
-						<span class="close">&times;</span>
-						<p>something about the raid lol</p>
+<div class="cennnterrr">
+					<!-- button 1 -->
+					<button id="btnid">Leviathan</button>
+
+					<!-- modal -->
+					<div id="modalid" class="modal">
+						<!-- modal content -->
+						<div class="modal-content">
+							<!-- &times = * = x (multiplication sign) -->
+							<span class="close1">&times;</span>
+							<p>something about the raid lol</p>
+						</div>
 					</div>
-				</div>^
+				</div>
+				<br>
 
-class:
+css:
 
-  /* modal background */
-  .modal {
-    display: none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto; /* enable scroll if needed */
-    background-color: rgb(0,0,0); /* older browsers fallback */
-    background-color: rgba(0,0,0,0.4); /* newer browsers*/
-  }
-  
-  /* modal content box */
-  .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    width: 80%;
-    border-radius: 15px; /* round corners */
-  }
-  
-  /* close button */
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  /* close button hover and focus options */
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  /* text positioning middle */
-  .text-positioning  {
-    text-align: center;
-  }
-
-
-/* button */
-
-  #btnid  {
-    /* background-image: url(lastwish.jpg); */
-    background-color: #928e8e;
-    background-size: 101% auto;
-    background-position: center 90%;
-    background-repeat: no-repeat;
-    padding-right: 65%;
-    padding-left: 20%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border-radius: 15px;
-    border: none; 
-    position: relative;
-    font-weight: bold;
-  }
+#btnid {
+/*background-image: url(lastwish.jpg);
+background-size: 100% auto;
+background-position: center;
+background-repeat: no-repeat;*/
+background-color: #928e8eb4;
+/* padding-right: 54%;
+padding-left: 46%;
+padding-left: 25vw;
+padding-right: 25vw;*/
+padding-top: 5%;
+padding-bottom: 5%;
+border-radius: 15px;
+border: none;
+font-weight: bold;
+white-space: nowrap;
+position: relative;
+width: 50vw;
+}
 
 js:
 
-	<script>
-		/* define modal */
-		var modal = document.getElementById("modalid");
+/* modal 1 */
 
-		/* define button */
-		var btn = document.getElementById("btnid");
+/* define modal */
+var modal = document.getElementById("modalid");
 
-		/* define <span> element that closes modal */
-		var span = document.getElementsByClassName("close")[0];
+/* define button */
+var btn = document.getElementById("btnid");
 
-		/* function button opens modal */
-		btn.onclick = function () {
-			modal.style.display = "block";
-		}
+/* define <span> element that closes modal */
+var span = document.getElementsByClassName("close1")[0];
 
-		/* on click of <span> (x) modal closes */
-		span.onclick = function () {
-			modal.style.display = "none";
-		}
+/* function button opens modal */
+btn.onclick = function () {
+    modal.style.display = "block";
+}
 
-		/* modal closes if clicked anywhere outside of modal */
-		window.onclick = function (event) {
-			if (event.target == modal) {
-				modal.style.display = "none";
-			}
-		}
-	</script>
+/* on click of <span> (x) modal closes */
+span.onclick = function () {
+    modal.style.display = "none";
+}
+
+/* modal closes if clicked anywhere outside of modal */
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+all buttons:
+
+html:
+
+<div class="cennnterrr">
+					<!-- button 1 -->
+					<button id="btnid">Leviathan</button>
+
+					<!-- modal -->
+					<div id="modalid" class="modal">
+						<!-- modal content -->
+						<div class="modal-content">
+							<!-- &times = * = x (multiplication sign) -->
+							<span class="close1">&times;</span>
+							<p>something about the raid lol</p>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="cennnterrr">
+					<!-- button 2 -->
+					<button id="btnid2">Last Wish</button>
+
+					<!-- modal -->
+					<div id="modalid2" class="modal">
+						<!-- modal content -->
+						<div class="modal-content">
+							<span class="close2">&times;</span>
+							<p>something about the raid lol</p>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="cennnterrr">
+					<!-- button 3 -->
+					<button id="btnid3">Scourge of the Past</button>
+
+					<!-- modal -->
+					<div id="modalid3" class="modal">
+						<!-- modal content -->
+						<div class="modal-content">
+							<span class="close3">&times;</span>
+							<p>something about the raid lol</p>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="cennnterrr">
+					<!-- button 4 -->
+					<button id="btnid4">Crown of Sorrow</button>
+
+					<!-- modal -->
+					<div id="modalid4" class="modal">
+						<!-- modal content -->
+						<div class="modal-content">
+							<span class="close4">&times;</span>
+							<p>something about the raid lol</p>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="cennnterrr">
+					<!-- button 5 -->
+					<button id="btnid5">Garden of Salvation</button>
+
+					<!-- modal -->
+					<div id="modalid5" class="modal">
+						<!-- modal content -->
+						<div class="modal-content">
+							<span class="close5">&times;</span>
+							<p>something about the raid lol</p>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="cennnterrr">
+					<!-- button 6 -->
+					<button id="btnid6">coming soon</button>
+
+					<!-- modal -->
+					<div id="modalid6" class="modal">
+						<!-- modal content -->
+						<div class="modal-content">
+							<span class="close6">&times;</span>
+							<p>something about the raid lol</p>
+						</div>
+					</div>
+				</div>
+				<br>
+
+css:
+
+#btnid {
+/*background-image: url(lastwish.jpg);
+background-size: 100% auto;
+background-position: center;
+background-repeat: no-repeat;*/
+background-color: #928e8eb4;
+/* padding-right: 54%;
+padding-left: 46%;
+padding-left: 25vw;
+padding-right: 25vw;*/
+padding-top: 5%;
+padding-bottom: 5%;
+border-radius: 15px;
+border: none;
+font-weight: bold;
+white-space: nowrap;
+position: relative;
+width: 50vw;
+}
+
+#btnid2 {
+/* background-image: url(lastwish.jpg);
+background-size: 100% auto;
+background-position: center;
+background-repeat: no-repeat;*/
+background-color: #928e8eb4;
+/* padding-right: 54%;
+padding-left: 46%;
+padding-left: 25vw;
+padding-right: 25vw;*/
+padding-top: 5%;
+padding-bottom: 5%;
+border-radius: 15px;
+border: none;
+font-weight: bold;
+white-space: nowrap;
+position: relative;
+width: 50vw;
+}
+
+#btnid3 {
+/* background-image: url(lastwish.jpg);
+background-size: 100% auto;
+background-position: center;
+background-repeat: no-repeat;*/
+background-color: #928e8eb4;
+/* padding-right: 54%;
+padding-left: 46%;
+padding-left: 25vw;
+padding-right: 25vw;*/
+padding-top: 5%;
+padding-bottom: 5%;
+border-radius: 15px;
+border: none;
+font-weight: bold;
+white-space: nowrap;
+position: relative;
+width: 50vw;
+}
+
+#btnid4 {
+/* background-image: url(lastwish.jpg);
+background-size: 100% auto;
+background-position: center;
+background-repeat: no-repeat;*/
+background-color: #928e8eb4;
+/* padding-right: 54%;
+padding-left: 46%;
+padding-left: 25vw;
+padding-right: 25vw;*/
+padding-top: 5%;
+padding-bottom: 5%;
+border-radius: 15px;
+border: none;
+font-weight: bold;
+white-space: nowrap;
+position: relative;
+width: 50vw;
+}
+
+#btnid5 {
+/* background-image: url(lastwish.jpg);
+background-size: 100% auto;
+background-position: center;
+background-repeat: no-repeat;*/
+background-color: #928e8eb4;
+/* padding-right: 54%;
+padding-left: 46%;
+padding-left: 25vw;
+padding-right: 25vw;*/
+padding-top: 5%;
+padding-bottom: 5%;
+border-radius: 15px;
+border: none;
+font-weight: bold;
+white-space: nowrap;
+position: relative;
+width: 50vw;
+}
+
+#btnid6 {
+/* background-image: url(lastwish.jpg);
+background-size: 100% auto;
+background-position: center;
+background-repeat: no-repeat;*/
+background-color: #928e8eb4;
+/* padding-right: 54%;
+padding-left: 46%;
+padding-left: 25vw;
+padding-right: 25vw;*/
+padding-top: 5%;
+padding-bottom: 5%;
+border-radius: 15px;
+border: none;
+font-weight: bold;
+white-space: nowrap;
+position: relative;
+width: 50vw;
+}
+
