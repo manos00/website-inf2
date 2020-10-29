@@ -1,3 +1,57 @@
+/* @font-face  {
+    font-family: 'riverflows';
+    src: url(fonts/riverflows/RIVERFLOWS.ttf) format(opentype); 
+} 
+*/
+
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+    text-align: center;
+}
+
+li  {
+    float: left;
+    border-right: 1px solid rgba(85, 85, 85, 0.75);
+}
+
+li:last-child   {
+    border-right: none;
+}
+
+li a   {
+    padding: 25px 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(78, 78, 78);
+}
+
+li a:hover {
+    background-color: rgb(78, 78, 78);
+}
+
+.activepage {
+    background-color: rgb(78, 78, 78);
+}
+
+/* text positioning middle */
+.text-style {
+    text-align: center;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal,
+}
+    
+
 /* background */
 .modal {
 display: none;
@@ -41,13 +95,6 @@ cursor: pointer;
 color: black;
 text-decoration: none;
 cursor: pointer;
-}
-
-/* text positioning middle */
-.text-style {
-text-align: center;
-font-size: 125%;
-
 }
 
 
