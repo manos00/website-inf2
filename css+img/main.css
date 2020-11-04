@@ -4,6 +4,55 @@ src: url(fonts/riverflows/RIVERFLOWS.ttf) format(opentype);
 }
 */
 
+*   {
+    box-sizing: border-box;
+}
+
+.gallerycontainer {
+    position: relative;
+    vertical-align: middle;
+  }
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: rgba(255, 236, 236, 0.1);
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Black background color on hover with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 236, 236, 0.1);
+}
+
 #btnlink {
     background-color: #928e8eb4;
     padding-top: 5%;
