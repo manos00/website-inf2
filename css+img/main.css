@@ -375,3 +375,17 @@ padding-right: 25vw;*/
 .clearfix {
     *zoom: 1;
 }
+    
+.loaded footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #928e8e;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    opacity: 1;
+    -webkit-transition: all 2s ease-in;
+    transition: all 2s ease-in;
+ }
