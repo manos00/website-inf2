@@ -4,14 +4,37 @@ src: url(fonts/riverflows/RIVERFLOWS.ttf) format(opentype);
 }
 */
 
-*   {
+
+/* link styles */
+
+#content a:link {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+#content a:visited {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+#content a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#content a:active {
+    text-decoration: underline;
+    color: rgb(36, 36, 36);
+}
+
+* {
     box-sizing: border-box;
 }
 
 .gallerycontainer {
     position: relative;
     vertical-align: middle;
-  }
+}
 
 /* Next & previous buttons */
 .prev,
@@ -51,18 +74,6 @@ src: url(fonts/riverflows/RIVERFLOWS.ttf) format(opentype);
     position: absolute;
     top: 0;
     background-color: rgba(255, 236, 236, 0.1);
-}
-
-#btnlink {
-    background-color: #928e8eb4;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border-radius: 15px;
-    border: none;
-    font-weight: bold;
-    white-space: nowrap;
-    position: relative;
-    width: 50vw;
 }
 
 /* navigation bar */
@@ -112,19 +123,6 @@ li a:hover {
     font-weight: normal,
 }
 
-/* link color */
-.back-link a {
-    color: #e0e4e0;
-    text-decoration: none;
-}
-
-/* link color when hovering over or focussing */
-.back-link a:hover,
-.back-link a:focus {
-    color: #6e746d;
-    text-decoration: none;
-}
-
 h1 {
     height: 100%;
     margin: 0;
@@ -165,6 +163,7 @@ h1 {
     /* older browsers fallback */
     background-color: rgba(0, 0, 0, 0.4);
     /* newer browsers*/
+    z-index: 20000;
 }
 
 /* modal content box */
@@ -176,7 +175,6 @@ h1 {
     width: 80%;
     border-radius: 15px;
     /* round corners */
-    z-index: 20000;
     position: relative;
     align-items: center;
 }
@@ -228,8 +226,46 @@ h1 {
     position: relative;
 }
 
+#btnlink1 {
+    background-color: #928e8eb4;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    width: 50vw;
+}
 
-#btnid {
+#btnlink2 {
+    background-color: #928e8eb4;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    width: 50vw;
+}
+
+#btnlink3 {
+    background-color: #928e8eb4;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    white-space: nowrap;
+    position: relative;
+    width: 50vw;
+}
+
+#btnid,
+#btnid2,
+#btnid3,
+#btnid4 {
     /*background-image: url(lastwish.jpg);
 background-size: 100% auto;
 background-position: center;
@@ -249,16 +285,8 @@ padding-right: 25vw;*/
     width: 50vw;
 }
 
-#btnid2 {
-    /* background-image: url(lastwish.jpg);
-background-size: 100% auto;
-background-position: center;
-background-repeat: no-repeat;*/
+#btnlink1 {
     background-color: #928e8eb4;
-    /* padding-right: 54%;
-padding-left: 46%;
-padding-left: 25vw;
-padding-right: 25vw;*/
     padding-top: 5%;
     padding-bottom: 5%;
     border-radius: 15px;
@@ -269,16 +297,8 @@ padding-right: 25vw;*/
     width: 50vw;
 }
 
-#btnid3 {
-    /* background-image: url(lastwish.jpg);
-background-size: 100% auto;
-background-position: center;
-background-repeat: no-repeat;*/
-    background-color: #928e8eb4;
-    /* padding-right: 54%;
-padding-left: 46%;
-padding-left: 25vw;
-padding-right: 25vw;*/
+#btnlink2 {
+    background-color: rgba(35, 117, 8, 0.7);
     padding-top: 5%;
     padding-bottom: 5%;
     border-radius: 15px;
@@ -289,56 +309,8 @@ padding-right: 25vw;*/
     width: 50vw;
 }
 
-#btnid4 {
-    /* background-image: url(lastwish.jpg);
-background-size: 100% auto;
-background-position: center;
-background-repeat: no-repeat;*/
+#btnlink3 {
     background-color: #928e8eb4;
-    /* padding-right: 54%;
-padding-left: 46%;
-padding-left: 25vw;
-padding-right: 25vw;*/
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border-radius: 15px;
-    border: none;
-    font-weight: bold;
-    white-space: nowrap;
-    position: relative;
-    width: 50vw;
-}
-
-#btnid5 {
-    /* background-image: url(lastwish.jpg);
-background-size: 100% auto;
-background-position: center;
-background-repeat: no-repeat;*/
-    background-color: #928e8eb4;
-    /* padding-right: 54%;
-padding-left: 46%;
-padding-left: 25vw;
-padding-right: 25vw;*/
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border-radius: 15px;
-    border: none;
-    font-weight: bold;
-    white-space: nowrap;
-    position: relative;
-    width: 50vw;
-}
-
-#btnid6 {
-    /* background-image: url(lastwish.jpg);
-background-size: 100% auto;
-background-position: center;
-background-repeat: no-repeat;*/
-    background-color: #928e8eb4;
-    /* padding-right: 54%;
-padding-left: 46%;
-padding-left: 25vw;
-padding-right: 25vw;*/
     padding-top: 5%;
     padding-bottom: 5%;
     border-radius: 15px;
