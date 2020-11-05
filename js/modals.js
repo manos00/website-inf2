@@ -109,3 +109,59 @@ window.onclick = function (event4) {
         modal4.style.display = "none";
     }
 }
+
+/* modal 5 */
+
+/* define modal */
+var modal5 = document.getElementById("modalid5");
+
+/* define button */
+var btn = document.getElementById("btnid5");
+
+/* define <span> element that closes modal */
+var span = document.getElementsByClassName("close5")[0];
+
+/* function button opens modal */
+btn.onclick = function () {
+    modal5.style.display = "block";
+}
+
+/* on click of <span> (x) modal closes */
+span.onclick = function () {
+    modal5.style.display = "none";
+}
+
+/* modal closes if clicked anywhere outside of modal */
+window.onclick = function (event5) {
+    if (event5.target == modal5) {
+        modal5.style.display = "none";
+    }
+}
+
+/* modal 6 */
+
+/* define modal */
+var modal6 = document.getElementById("modalid6");
+
+/* define button */
+var btn6 = document.getElementById("btnid6");
+
+/* define <span> element that closes modal */
+var span6 = document.getElementsByClassName("close6")[0];
+
+/* function button opens modal */
+btn6.onclick = function () {
+    modal6.style.display = "block";
+}
+
+/* on click of <span> (x) modal closes */
+span6.onclick = function () {
+    modal6.style.display = "none";
+}
+
+/* modal closes if clicked anywhere outside of modal */
+window.onclick = function (event6) {
+    if (event6.target == modal6) {
+        modal6.style.display = "none";
+    }
+}
