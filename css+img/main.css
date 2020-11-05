@@ -154,9 +154,9 @@ h1 {
     display: none;
     position: fixed;
     left: 0;
-    top: 0;
+    top: -100px;
     width: 100%;
-    height: 100%;
+    height: 130%;
     overflow: auto;
     /* enable scroll if needed */
     background-color: rgb(0, 0, 0);
@@ -171,7 +171,7 @@ h1 {
     background-color: #fefefe;
     margin: 15% auto;
     /* 15% from the top and centered */
-    padding: 20px;
+    padding: 2%;
     width: 80%;
     border-radius: 15px;
     /* round corners */
@@ -224,42 +224,6 @@ h1 {
     justify-content: center;
     align-items: center;
     position: relative;
-}
-
-#btnlink1 {
-    background-color: #928e8eb4;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border-radius: 15px;
-    border: none;
-    font-weight: bold;
-    white-space: nowrap;
-    position: relative;
-    width: 50vw;
-}
-
-#btnlink2 {
-    background-color: #928e8eb4;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border-radius: 15px;
-    border: none;
-    font-weight: bold;
-    white-space: nowrap;
-    position: relative;
-    width: 50vw;
-}
-
-#btnlink3 {
-    background-color: #928e8eb4;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    border-radius: 15px;
-    border: none;
-    font-weight: bold;
-    white-space: nowrap;
-    position: relative;
-    width: 50vw;
 }
 
 #btnid,
@@ -389,3 +353,11 @@ padding-right: 25vw;*/
     -webkit-transition: all 2s ease-in;
     transition: all 2s ease-in;
  }
+
+.cmimg {
+    display: none;
+}
+
+.showimg:hover cmimg {
+    display: block;
+}

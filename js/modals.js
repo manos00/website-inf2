@@ -48,8 +48,8 @@ span.onclick = function () {
 }
 
 /* modal closes if clicked anywhere outside of modal */
-window.onclick = function (event) {
-    if (event.target == modal2) {
+window.onclick = function (event2) {
+    if (event2.target == modal2) {
         modal2.style.display = "none";
     }
 }
@@ -76,8 +76,8 @@ span.onclick = function () {
 }
 
 /* modal closes if clicked anywhere outside of modal */
-window.onclick = function (event) {
-    if (event.target == modal3) {
+window.onclick = function (event3) {
+    if (event3.target == modal3) {
         modal3.style.display = "none";
     }
 }
@@ -87,7 +87,7 @@ window.onclick = function (event) {
 /* define modal */
 var modal4 = document.getElementById("modalid4");
 
-/* define button */
+/* define button */ 
 var btn = document.getElementById("btnid4");
 
 /* define <span> element that closes modal */
@@ -104,8 +104,8 @@ span.onclick = function () {
 }
 
 /* modal closes if clicked anywhere outside of modal */
-window.onclick = function (event) {
-    if (event.target == modal4) {
+window.onclick = function (event4) {
+    if (event4.target == modal4) {
         modal4.style.display = "none";
     }
 }
