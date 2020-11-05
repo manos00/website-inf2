@@ -144,24 +144,24 @@ window.onclick = function (event5) {
 var modal6 = document.getElementById("modalid6");
 
 /* define button */
-var btn6 = document.getElementById("btnid6");
+var btn = document.getElementById("btnid6");
 
 /* define <span> element that closes modal */
-var span6 = document.getElementsByClassName("close6")[0];
+var span = document.getElementsByClassName("close6")[0];
 
 /* function button opens modal */
-btn6.onclick = function () {
+btn.onclick = function () {
     modal6.style.display = "block";
 }
 
 /* on click of <span> (x) modal closes */
-span6.onclick = function () {
+span.onclick = function () {
     modal6.style.display = "none";
 }
 
 /* modal closes if clicked anywhere outside of modal */
 window.onclick = function (event6) {
-    if (event6.target == modal6) {
+    if (event6.target == modal) {
         modal6.style.display = "none";
     }
 }
